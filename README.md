@@ -4,15 +4,18 @@
 
 #CMPE 273 assignment 1: Python flask sqlachemy
 
-Insert Record
+Insert Record:
 
 POST http://localhost:5000/v1/expenses
-Read record
+
+Read record:
 
 GET http://localhost:5000/v1/expenses/<id>
-Modify record
+
+Modify record:
 
 PUT http://localhost:5000/v1/expenses/<id>
-Delete record
+
+Delete record:
 
 DELETE http://localhost:5000/v1/expenses/<id>
